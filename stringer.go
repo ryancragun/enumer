@@ -69,7 +69,7 @@ func Usage() {
 	fmt.Fprintf(os.Stderr, "\tenumer [flags] -type T [directory]\n")
 	fmt.Fprintf(os.Stderr, "\tenumer [flags] -type T files... # Must be a single package\n")
 	fmt.Fprintf(os.Stderr, "For more information, see:\n")
-	fmt.Fprintf(os.Stderr, "\thttps://github.com/stevendpclark/enumer\n")
+	fmt.Fprintf(os.Stderr, "\thttps://github.com/ryancragun/enumer\n")
 	fmt.Fprintf(os.Stderr, "Flags:\n")
 	flag.PrintDefaults()
 }
