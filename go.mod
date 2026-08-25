@@ -1,4 +1,4 @@
-module github.com/stevendpclark/enumer
+module github.com/ryancragun/enumer
 
 go 1.25.0
 

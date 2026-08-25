@@ -6,7 +6,7 @@ It started as a fork of [Rob Pike’s Stringer tool](https://godoc.org/golang.or
 Enumer can be installed as any other go command:
 
 ```
-go install github.com/stevendpclark/enumer
+go install github.com/ryancragun/enumer
 ```
 After that, the `enumer` executable will be in "$GOPATH/bin" folder and you can use it with `go generate`
 
@@ -35,7 +35,7 @@ the enum conform to the `gopkg.in/yaml.v2.Marshaler` and `gopkg.in/yaml.v2.Unmar
 * When the flag `sql` is provided, the methods for implementing the Scanner and Valuer interfaces will be also generated.
 Useful when storing the enum in a database.
 * When the flag `extra-values` is provided, two additional methods will be generated, `<Type>ValuesAsStr()` which returns
-a slice of strings that represent all the enumerations and `<Type>sStrValuesAsAny` which returns the same slice as `<Type>ValuesAsStr()` 
+a slice of strings that represent all the enumerations and `<Type>sStrValuesAsAny` which returns the same slice as `<Type>ValuesAsStr()`
 but is returned as a slice of any values.
 
 For example, if we have an enum type called `Pill`,
